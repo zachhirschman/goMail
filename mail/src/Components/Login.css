@@ -1,0 +1,55 @@
+.login-container{
+    width:30vw;
+    height:60vh;
+    border-radius: 15px;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    padding:25px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 10px 0px;
+}
+
+.login-input{
+    padding: 10px;
+    border-radius: 3px;
+    background: aliceblue;
+    border: solid 1px #e4e4e4;
+}
+
+.login-button-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.login-button{
+    padding:12px;
+    border-radius: 3px;
+    width:48%;
+    font-size: 16px;
+    color:white;
+    font-weight: 100;
+    border:none;
+    transition: all .5s;
+}
+
+.forgotPassword{
+    background: grey;
+}
+
+.login{
+    background: blue;
+}
+
+.login-button:hover{
+    opacity: .5;
+}
